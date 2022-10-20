@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #fff;
+}
+.container{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 200px auto;
+}
+h1{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+input:nth-of-type(1){
+  padding: 10px 5px 10px 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.copy{
+    position: absolute;
+    left: 60%;
+    margin: 15px -5px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.check{
+    padding: 20px 0;
+}
+.check div{
+    display: flex;
+    padding-left: 15px;
+}
+.check div input{
+   width: 10%;
+}
+.check div:nth-of-type(5){
+    justify-content: center;
+}
+span{
+    font-size: 10px;
+}
+button{
+    text-align: center;
+    font-size: 18px;
+    background-color: #0000ff;
+    padding: 8px ;
+    width: 100%;
+    cursor: pointer;
+}
