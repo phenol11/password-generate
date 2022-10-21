@@ -81,4 +81,19 @@ function symbolsOnly(){
 };
 
 
+const copyIcon = document.querySelector(".fa-solid");
+
+copyIcon.addEventListener("click", function(){
+  let value =  document.getElementById("password");
+
+  if(value.value === ""){
+    console.log("none");
+  }else{
+    
+    value.select();
+    navigator.clipboard.writeText(value.value);
+    alert("Copied the text: " + value.value);
+  }
+})
+
 
